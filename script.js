@@ -32,7 +32,7 @@ const resultContainer = document.getElementById("result-container");
 resultBtn.addEventListener("click", function() {
   // check if all questions are answered
   if (selectedAnswers.length < questionBlocks.length || selectedAnswers.includes(undefined)) {
-    resultContainer.textContent = "Please answer all questions first!";
+    resultContainer.textContent = "Please make sure to answer all questions first!";
     resultContainer.style.color = "red";
     return;
   }
