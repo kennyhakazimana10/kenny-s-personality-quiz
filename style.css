@@ -1,0 +1,16 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.answer-btn {
+  margin: 5px;
+}
+
+.answer-btn.selected {
+  background-color: #0d6efd;
+  color: white;
+}
+
+#result-container {
+  margin-top: 30px;
+}
